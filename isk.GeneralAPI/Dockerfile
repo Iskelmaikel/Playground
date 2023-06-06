@@ -7,10 +7,16 @@
 # 1. Build stage
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0-focal AS build
+
+# 1.1 Set environment variables
+# Ensure we listen on any IP Address 
+ENV DOTNET_URLS=http://+:5000
+ENV ASPNETCORE_HTTP_PORT=https://+:5001
+
 WORKDIR /source
 COPY . .
-RUN dotnet restore "./isk.GeneralAPI/isk.GeneralAPI.csproj"
-RUN dotnet publish "./isk.GeneralAPI/isk.GeneralAPI.csproj" -c release -o /app --no-restore
+RUN dotnet restore "./isk.GeneralAPI.csproj"
+RUN dotnet publish "./isk.GeneralAPI.csproj" -c release -o /app --no-restore
 
 # 2. Application serve stage
 

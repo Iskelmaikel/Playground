@@ -1,0 +1,20 @@
+1. Zoek op hoe Swagger werkt. Documenteer je endpoints
+2. Installeer entity framework. Dit is een enorm pakket. Lees hier vooral veel over. Belangrijke hints zijn:
+	- Je kunt database-first werken: Daarmee maak je de database tabellen aan en ga je daarna je code er voor schrijven.
+	- Je kunt ook code-first werken. Je maakt daarmee je klassen aan die je in de database zou willen zien (als modellen)
+	  Die geef je allerlei properties mee zoals een id, naam, inhoud etc.
+	  Met entity framework kun je vervolgens "migrations" aanmaken. Daarmee genereer/update je jouw database obv je code.
+
+	  Bij voorkeur ga je code-first werken!
+
+3. Schrijf code (dbcontext) om via je controllers met de database te praten.
+4. Maak in je controllers CRUD operaties aan voor minimaal 
+   - Notities.
+
+   Andere tabellen en modellen komen later wel.
+
+   Let op: Database maak je niet zelf aan, maar genereer je met entity framework.
+
+
+Sources / tutorials:
+https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli

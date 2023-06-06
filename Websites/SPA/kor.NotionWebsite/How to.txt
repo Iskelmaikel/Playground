@@ -1,0 +1,13 @@
+1. Bereid je laptop voor. Installeer node.js, angular (incl CLI) en start een nieuw project in de folder: 'Iskelmaikels_Playground\Websites\SPA\kor.NotionWebsite'
+2. Volg daarvoor deze tutorial: https://angular.io/tutorial/tour-of-heroes/toh-pt0
+
+
+Als je een sample website klaar hebt (na initializatie zou deze moeten werken)
+Kun je de inhoud hiervan weg gooien en zelf een pagina opbouwen.
+
+Maak bijv de volgende pagina's:
+- Notitie overzicht. filterbaar op periode (dagelijks, wekelijks, lange termijn)
+	- CRUD knoppen per notitie (edit, delete)
+	- Add notitie knop (verwijst naar nieuwe pagina waar je een notitie maakt)
+- Maak een profielpagina naar je wens. Die gaan we later vullen met echte data
+- Doe iets met rollen. Zet een flag in je applicatie waarmee je de edit/delete knoppen voor notities kunt verbergen of laten zien. Denk hier vooral even over na. Implementatie maakt (nog) niet zo veel uit.

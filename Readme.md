@@ -26,9 +26,10 @@ Here you will find all APIs that are included in this project. I will do my best
 This API is the sum of all parts. It is a dockerized API that communicates with a dockerized database.
 
 Build instructions:
-1. docker build --rm -t *<iskelmaikels_playground/isk.generalapi>*:latest .
-2. docker run --rm -p 5000:5000 -p 5001:5001 -e ASPNETCORE_HTTP_PORT=https://+:5001  -e ASPNETCORE_HTTP_URLS=http://+:5000 *<iskelmaikels_playground/isk.generalapi>*
-3. Run a browser and navigate to localhost:5000/Weatherforecase to see the sample api
+1. Open a cmd or terminal in: "*<iskelmaikels_playground/isk.generalapi>*"
+2. Run: "docker build --rm -t iskelmaikels_playground/isk.generalapi:latest ." Note: Do not copy the surrounding quotes
+3. Run: "docker run --rm -p 5000:5000 -p 5001:5001 -e Logging__Loglevel__Default=Debug -e Logging__Loglevel__Microsoft.AspNetCore=Debug -e ASPNETCORE_HTTP_PORT=https://+:5001  -e ASPNETCORE_HTTP_URLS=http://+:5000 iskelmaikels_playground/isk.generalapi"
+4. Run a browser and navigate to localhost:5000/Weatherforecase to see the sample api
 ### Database(s)
 
 Currently there is only one database. It is dockerized and can be run with the following command(s):

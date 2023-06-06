@@ -1,0 +1,353 @@
+{
+  "words": {
+    "verbs": {},
+    "nouns": {},
+    "adposition": {}
+  },
+  "verb-types": {
+    "metadata": {
+      "information": {
+        "src": [ "http://www.thefinnishteacher.com/verbityypit-ja-preesens--verb-types-and-the-present-tense.html" ]
+      }
+    },
+    "description": "There are 6 verb-types in the Finnish language. Each verb-type has it's own specific rules to follow when conjugating the verb",
+    "1": {
+      "description": "Type 1 verbs always end with 2 vowels.",
+      "instructions": [
+        "Remove the last letter",
+        "KPT- minä, sinä, me, te = Strong becomes weak  -  hän, he = Strong remains strong",
+        "Add suffix"
+      ],
+      "examples": {
+        "puhua": [ "puhu-a", "Minä puhun", "Sinä puhut", "Hän puhuu", "Me puhumme", "Te puhutte", "He puhuvat" ],
+        "kirjoittaa": [ "kirjoitta-a", "Minä kirjoitan", "Sinä kirjoitat", "Hän kirjoittaa", "Me kirjoitamme", "Te kirjoitatte", "He kirjoittavat" ],
+        "lukea": [ "luke-a", "Minä luen", "Sinä luet", "Hän lukee", "Me luemme", "Te luette", "He lukevat" ],
+        "ymmärtää": [ "Ymmärtä-ä", "Minä ymmärrän", "Sinä ymmärrät", "Hän ymmärtää", "Me ymmärrämme", "Te ymmärrätte", "He ymmärtävät" ]
+      }
+    },
+    "2": {
+      "description": "Type 2 verbs always end with da/dä.",
+      "instructions": [
+        "Remove da/dä",
+        "Add suffix. (Except for hän) "
+      ],
+      "examples": {
+
+      }
+    },
+    "3": {
+      "description": "Type 3 verbs always end with either la/lä, ra/rä, na/nä or sta/stä.",
+      "instructions": [
+        "Remove the last 2 letters.",
+        "KPT - Weak becomes strong.",
+        "Add the letter e and then the suffix"
+      ],
+      "examples": {
+
+      }
+    },
+    "4": {
+      "description": "Type 4 verbs always end with ta/tä preceded by a vowel.",
+      "instructions": [
+        "Remove the letter t.",
+        "KPT- Weak becomes strong",
+        "Add suffix. (Hän = add a/ä only if there are not already 2 a's/ä's)"
+      ],
+      "examples": {
+
+      }
+    },
+    "5": {
+      "description": "Type 5 verbs always end with ita/itä.",
+      "instructions": [
+        "Remove the last letter a/ä.",
+        "Add the letters se and then the suffix"
+      ],
+      "examples": {
+
+      }
+    },
+    "6": {
+      "description": "Type 6 verbs always end with eta/etä.",
+      "instructions": [
+        "Remove the letters ta/tä.",
+        "KPT- Weak becomes strong",
+        "Add the letters ne and then the suffix"
+      ],
+      "examples": {
+
+      }
+    }
+  },
+  "tenses": {
+    "metadata": {
+      "information": {
+        "src": [ "http://www.thefinnishteacher.com/aikamuodot--the-tenses.html" ]
+      }
+    },
+    "present": {
+      "finnishName": "preesens",
+      "description": "The present tense.",
+      "short-explanation": "This can either mean 'I speak' or 'I am speaking' or 'I will speak'. It depends on the context.",
+      "pronoun-suffixes": [
+        {
+          "pronoun": "minä",
+          "suffixes": [ "n" ]
+        },
+        {
+          "pronoun": "sinä",
+          "suffixes": [ "t" ]
+        },
+        {
+          "pronoun": "hän",
+          "verb-types": [ 1, 3, 4, 5, 6 ],
+          "description": "+ vowel (the same as the one left at the end of the verb)",
+          "suffixes": [ "" ]
+        },
+        {
+          "pronoun": "hän",
+          "verb-types": [ 2 ],
+          "description": "do nothing",
+          "suffixes": [ "" ]
+        },
+        {
+          "pronoun": "me",
+          "suffixes": [ "mme" ]
+        },
+        {
+          "pronoun": "te",
+          "suffixes": [ "tte" ]
+        },
+        {
+          "pronoun": "he",
+          "suffixes": [ "vat", "vät" ]
+        }
+      ],
+      "examples": {
+        "1": [ "I speak Finnish", "Minä puhun suomea" ],
+        "2": [ "I'm talking about work", "Minä puhun töistä" ],
+        "3": [ "I speak Finnish", "Minä puhun suomea" ]
+      }
+    },
+    "past": {},
+    "perfect": {},
+    "past-perfect": {}
+  },
+  "cases": {
+    "metadata": {
+      "information": {
+        "src": [ "" ]
+      }
+    },
+    "nominative": {
+      "finnishName": "nominatiivi",
+      "description": "Nominatiivi (nominative) is the case of a subject and has no ending in the singular. In plural it has the ending -t, whereas in most other cases, the plural suffix is -i- which appears before the case suffix (e.g.: taloissa).",
+      "suffix": [ "-", "-t" ],
+      "english-prep": "-",
+      "sample-word-form": "talo : talot",
+      "sample-translation": "house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "accusative": {
+      "finnishName": "akkusatiivi",
+      "description": "Akkusatiivi (accusative, objective, the case of a grammatical object) is often listed as a case, too. However, its form coincides with the form of the nominative or the form of the genitive, except for the personal pronouns (minä, sinä, etc.) and the interrogatory pronoun kuka ~ ken, which have specific accusative forms (minut, sinut, etc., and kenet).",
+      "suffix": "",
+      "english-prep": "",
+      "sample-word-form": "",
+      "sample-translation": "",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "genitive": {
+      "finnishName": "genetiivi",
+      "description": "Genetiivi (genitive) indicates mainly relations similar to those expressed using the genitive or the 'of' preposition in English. It is also one of the cases of a grammatical object. In plural, it has several possible suffixes, partly depending on the stem, partly in free variation, as i nomena : omenien ~ omenoiden ~ omenoitten ~ omenain",
+      "suffix": [ "-n", "-jen", "..." ],
+      "english-prep": "of",
+      "sample-word-form": "talon : talojen",
+      "sample-translation": "of (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "partitive": {
+      "finnishName": "partitiivi",
+      "description": "Partitiivi indicates, among other things, the partiality of a grammatical object. E.g., the sentence söin omenaa has such an object and it would normally be translated as 'I was eating an apple'. In contrast, söin omenan contains a so-called total object (with the object in genitive), meaning that the entire apple was eaten, and it could be translated as 'I ate an apple' or 'I ate the apple', depending on the context. However, in many situations, partitiivi is simply the grammatical form 'required' by the verb, as in rakastan sinua 'I love you'. It is also used (in singular!) with numerals, e.g. kolme taloa 'three houses'.",
+      "suffix": [ "-(t)a", "-ja" ],
+      "english-prep": "-",
+      "sample-word-form": "taloa : taloja",
+      "sample-translation": "house (as an object)",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "inessive": {
+      "finnishName": "inessiivi",
+      "description": "Inessiivi (inessive) usually refers to being within or in close contact with something. Elatiivi typically indicates movement from within (or from close contact with) something. It is also used in more abstract meanings, as in minusta 'in my opinion'.",
+      "suffix": [ "-ssa", "-issa" ],
+      "english-prep": "in",
+      "sample-word-form": "talossa : taloissa",
+      "sample-translation": "in (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "elative": {
+      "finnishName": "elatiivi",
+      "description": "Elatiivi (elative) typically indicates movement from within (or from close contact with) something. It is also used in more abstract meanings, as in minusta 'in my opinion'.",
+      "suffix": [ "-sta", "-ista" ],
+      "english-prep": "from (inside)",
+      "sample-word-form": "talosta : taloista",
+      "sample-translation": "from (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "illative": {
+      "finnishName": "illatiivi",
+      "description": "Illatiivi (illative) normally indicates movement into (or to close contact with) something.",
+      "suffix": [ "-an", "-en", "-ihin", "-isiin" ],
+      "english-prep": "into",
+      "sample-word-form": "taloon : taloihin",
+      "sample-translation": "into (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "adessive": {
+      "finnishName": "adessiivi",
+      "description": "Adessiivi (adessive) can refer to being near or on the surface of something. It has several other uses as well, including the indication of instrument or method or manner, as well as idiomatic expressions like minulla on 'I have' (literally, 'at me there is').",
+      "suffix": [ "-lla", "-illa" ],
+      "english-prep": "at, on",
+      "sample-word-form": "talolla : taloilla",
+      "sample-translation": "at (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "ablative": {
+      "finnishName": "ablatiivi",
+      "description": "Ablatiivi (ablative) indicates movement from the neighborhood (or from the surface of) something.",
+      "suffix": [ "-lta", "-ilta" ],
+      "english-prep": "from",
+      "sample-word-form": "talolta : taloilta",
+      "sample-translation": "from (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "allative": {
+      "finnishName": "allatiivi",
+      "description": "Allatiivi (allative) indicates movement to the neighborhood (or to the surface of) something, or indicates the recipient (of giving something, for example).",
+      "suffix": [ "-lle", "-ille" ],
+      "english-prep": "to",
+      "sample-word-form": "talolle : taloille",
+      "sample-translation": "to (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "essive": {
+      "finnishName": "essiivi",
+      "description": "Essiivi (essive) usually indicates some sort of role.",
+      "suffix": [ "-na", "-ina" ],
+      "english-prep": "as",
+      "sample-word-form": " talona : taloina",
+      "sample-translation": "as a house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "translative": {
+      "finnishName": "translatiivi",
+      "description": "Translatiivi (translative) may indicate the result of a state or role transition, e.g. tulla opettajaksi 'become a teacher'. It has many other uses as well, e.g. suomeksi 'in Finnish'.",
+      "suffix": [ "-ksi", "-iksi" ],
+      "english-prep": "to (role of)",
+      "sample-word-form": "taloksi : taloiksi",
+      "sample-translation": "to a house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "abessive": {
+      "finnishName": "abessiivi",
+      "description": "Abessiivi (abessive) corresponds to English preposition 'without'. It is used rarely, except in sayings and in nominal forms of verbs.",
+      "suffix": [ "-tta", "-itta" ],
+      "english-prep": "without",
+      "sample-word-form": "talotta : taloitta",
+      "sample-translation": "without (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "comitative ": {
+      "finnishName": "komitatiivi",
+      "description": "Komitatiivi (comitative) indicates company. The ending is followed by a possessive suffix (except in adjective attributes). It is used rarely and always grammatically in plural.",
+      "suffix": [ "-ine-" ],
+      "english-prep": "together with",
+      "sample-word-form": "taloine(ni)",
+      "sample-translation": "with my house(s)",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    },
+    "instructive": {
+      "finnishName": "instruktiivi",
+      "description": "Instruktiivi (instructive) may indicate an instrument, but is has other meanings as well. One might regard it as vanished, remaining only in sayings and adverbs, such as jalan (by foot) and usein (often). However, it has some modern literary use, often regarded as artificial style, where it means 'together with' or 'including'. Normally, an instrument is expressed using adessiivi or other cases.",
+      "suffix": [ "-n", "-in" ],
+      "english-prep": "with (the aid of)",
+      "sample-word-form": "taloin",
+      "sample-translation": "with (a) house",
+      "examples": {
+        "1": {
+          "english": "",
+          "finnish": ""
+        }
+      }
+    }
+  }
+}

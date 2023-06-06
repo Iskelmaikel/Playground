@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "isk.GeneralAPI", "isk.GeneralAPI\isk.GeneralAPI.csproj", "{558DCD61-9C8D-4172-909D-034375230F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isk.GeneralAPI", "isk.GeneralAPI\isk.GeneralAPI.csproj", "{558DCD61-9C8D-4172-909D-034375230F75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{F0FF0639-F8B4-4B2E-8D8A-7E94DD69A3A6}"
 EndProject
@@ -24,6 +24,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isk.Database", "isk.Database\isk.Database.csproj", "{1016C22E-A7AD-4B46-BDB5-0407A9AED61C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isk.LanguageLearning", "isk.LanguageLearning\isk.LanguageLearning.csproj", "{13BF10DB-8840-4B3C-B425-24505020FFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kor.NotionApi", "kor.NotionApi\kor.NotionApi.csproj", "{02DFC1B3-307C-4084-81A4-88FA34F923AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +40,18 @@ Global
 		{558DCD61-9C8D-4172-909D-034375230F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{558DCD61-9C8D-4172-909D-034375230F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{558DCD61-9C8D-4172-909D-034375230F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1016C22E-A7AD-4B46-BDB5-0407A9AED61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1016C22E-A7AD-4B46-BDB5-0407A9AED61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1016C22E-A7AD-4B46-BDB5-0407A9AED61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1016C22E-A7AD-4B46-BDB5-0407A9AED61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BF10DB-8840-4B3C-B425-24505020FFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BF10DB-8840-4B3C-B425-24505020FFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BF10DB-8840-4B3C-B425-24505020FFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BF10DB-8840-4B3C-B425-24505020FFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DFC1B3-307C-4084-81A4-88FA34F923AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DFC1B3-307C-4084-81A4-88FA34F923AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DFC1B3-307C-4084-81A4-88FA34F923AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DFC1B3-307C-4084-81A4-88FA34F923AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +59,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{558DCD61-9C8D-4172-909D-034375230F75} = {F0FF0639-F8B4-4B2E-8D8A-7E94DD69A3A6}
 		{F813259B-4F04-4A16-8B46-847260D85DAC} = {A87E1B9C-965B-41BB-B2FD-48020870D55C}
+		{1016C22E-A7AD-4B46-BDB5-0407A9AED61C} = {C7F94AC3-D377-4D82-A5E3-A5904E494387}
+		{13BF10DB-8840-4B3C-B425-24505020FFD3} = {C7F94AC3-D377-4D82-A5E3-A5904E494387}
+		{02DFC1B3-307C-4084-81A4-88FA34F923AD} = {F0FF0639-F8B4-4B2E-8D8A-7E94DD69A3A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6970CB1-6987-4E07-BBA4-7ED33DDB7D4A}

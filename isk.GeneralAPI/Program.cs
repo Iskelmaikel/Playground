@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks(); // Adds a healthcheck service & endpoint to the application
 
 var app = builder.Build();
-app.MapHealthChecks("health"); // Maps the healthcheck endpoint to the given URI
+app.MapHealthChecks("_health"); // Maps the healthcheck endpoint to the given URI
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
