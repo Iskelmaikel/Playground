@@ -1,5 +1,9 @@
+using isk.Database.Repository;
 using isk.GeneralAPI;
 using isk.GeneralAPI.Benchmarks;
+using isk.GeneralAPI.DAL;
+using isk.LanguageLearning.Services;
+using isk.GeneralAPI.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped(typeof(IRepository), typeof(Repository<IskContext>));
+builder.Services.AddScoped<ISentenceGeneratorService, SentenceGeneratorService>();
+builder.Services.ConfigurMsSqlContext(settings.ConnectionString);
 
 builder.Services.AddHealthChecks(); // Adds a healthcheck service & endpoint to the application
 

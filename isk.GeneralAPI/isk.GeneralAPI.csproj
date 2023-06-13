@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\isk.Database\isk.Database.csproj" />
+    <ProjectReference Include="..\isk.LanguageLearning\isk.LanguageLearning.csproj" />
   </ItemGroup>
 
 </Project>

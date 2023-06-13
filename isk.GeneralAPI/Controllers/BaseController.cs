@@ -8,7 +8,6 @@ namespace isk.GeneralAPI.Controllers
     public abstract class BaseController : ControllerBase
     {
         protected IRepository Repository;
-        //protected IMapper mapper { get; set; }
 
         public BaseController(IRepository repository)
         {
